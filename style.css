@@ -1,5 +1,83 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.para{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3em; 
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.banner-img{
+    width: 430px;
+    height: auto;
+     margin-bottom: -8%;
+    margin-left: 5%; 
+}
+.banner .text h1{
+ color: #272727;
+font-family: Lato;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 1.1em;
+}
+.banner .text a,.btn{
+color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+border-radius: 2px;
+background: #E55473;
+display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 10px;
+line-height: normal;
+text-decoration: none;
+border: 1px solid #E55473;
+transition: 0.5s;
+}
+.banner .text a:hover ,.btn:hover{
+    background-color: transparent;
+    color: #E55473;
+}
+
+.title{
+color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 26px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.hot-deals{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hot-deals img{
+width: 220px;
+}
+.hot-deals .text .design{
+    color: #E55473;
 }
