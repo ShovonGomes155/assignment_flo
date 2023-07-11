@@ -189,7 +189,9 @@ background: rgba(5, 151, 160, 0.15);
     text-decoration: underline;
     cursor: pointer;
 }
-
+.catagory:hover{
+    color: #E55473;
+}
 footer {
     padding: 80px 450px;
     background: #111010;
